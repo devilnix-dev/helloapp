@@ -7,6 +7,8 @@ namespace HelloApp
         static void Main(string[] args)
         {
             Hello();
+            greetWhite();
+            greetBlack();
         }
 
         static void Hello()
@@ -18,5 +20,11 @@ namespace HelloApp
         {
             Console.WriteLine("hello white");
         }
+
+        static void greetBlack()
+        {
+            Console.WriteLine("hello black");
+        }
+
     }
 }
